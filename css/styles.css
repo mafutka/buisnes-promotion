@@ -60,6 +60,9 @@ img {
     line-height: 0.93333;
     color: #173a56;
     margin-right: 237px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
 
 .nav-list {
@@ -166,15 +169,19 @@ img {
     display: flex;
     gap: 9px;
     align-items: center;
+}
 
+.watch-icon {
+    border-radius: 2px;
+    fill: #02897a;
 }
 
 /* #endregion hero */
 /* #region signup */
 
 .signup {
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .signup-title {
@@ -183,13 +190,10 @@ img {
     font-size: 32px;
     text-align: center;
     color: #22343d;
-    margin-bottom: 50;
     width: 535px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 13px;
-    line-height: 2px;
-   
+    margin-bottom: 50px;
 }
 
 .signup-list {
@@ -205,12 +209,31 @@ img {
 
 .signup-list {
 display: flex;
+gap: 30px;
 margin-bottom: 50px;
-
 }
 
 .signup-list-item {
-    margin-right: 30px;
+   width: calc((100% - 90px) / 4);
+}
+
+.product-icon-wrap {
+    border-radius: 19px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.product-icon-wrap-first {
+    background: #02897a;
+}
+
+.product-item {
+    fill: #fff;
+    align-items: center;
 }
 
 .signup-list-title {
