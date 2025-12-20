@@ -24,6 +24,13 @@ p {
     margin: 0;
 }
 
+h3 {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 22px;
+color: #22343d;
+}
+
 button {
     cursor: pointer;
 }
