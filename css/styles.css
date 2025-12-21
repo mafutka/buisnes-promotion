@@ -25,18 +25,13 @@ p {
 }
 
 h2 {
-    font-family: var(--font-family);
 font-weight: 700;
 font-size: 32px;
-text-align: center;
-color: #22343d;
 }
 
 h3 {
-    font-family: var(--font-family);
 font-weight: 600;
 font-size: 22px;
-color: #22343d;
 }
 
 button {
@@ -244,6 +239,18 @@ margin-bottom: 50px;
 
 .product-icon-wrap-first {
     background: #02897a;
+}
+
+.product-icon-wrap-second {
+    background: #4d8dff;
+}
+
+.product-icon-wrap-third {
+    background: #740a76;
+}
+
+.product-icon-wrap-forth {
+    background: #f03e3d;
 }
 
 .product-item {
