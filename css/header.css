@@ -1,0 +1,108 @@
+/* #region header mobile*/
+
+.header .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 32px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.header-list,
+.header-list-btn,
+.header-btn {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
+.burger-btn {
+    display: flex;
+    width: 28px;
+    height: 31px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+/* #region header tablet-desktop*/
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1400px;
+    }
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 46px;
+}
+   
+    .nav {
+    display: flex;
+    align-items: center;
+}
+
+ .burger-btn {
+    display: none;
+    }
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    line-height: 1.75;
+    padding: 26px 0;
+    display: block;
+}
+
+.current {
+    font-weight: 600;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.header-list-btn {
+     display: block;
+}
+
+.header-btn {
+   display: block;
+    font-weight: 600;
+    border-radius: 4px;
+    min-width: 105px;
+    height: 42px;
+}
+
+.sign-in-btn {
+    border: 1px solid #bcd0e5;
+    background-color: transparent;
+    color: #173a56;
+}
+
+.sign-up-btn {
+    border: none;
+    background-color: #02897a;
+    color: #fff;
+}
+/* #endregion header */

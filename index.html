@@ -13,6 +13,7 @@
     <!--normilize-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <!--link-->
+<link rel="stylesheet" href="./css/header.css">
 <link rel="stylesheet" href="./css/styles.css" />
 
 </head>
@@ -21,12 +22,10 @@
 <!-- #region header -->
 <header class="header">
     <div class="container">
-        <nav class="nav">
-            <a class="logo" href="./index.html">
+        <a class="logo" href="./index.html">
                 <img src="./images/logo.jpg" alt="logotype" width="40" height="38">
                 Product</a>
-             <input type="checkbox" id="menu-toggle" class="menu-toggle">
-              <label for="menu-toggle" class="burger">☰</label>
+        <nav class="nav">
             <ul class="nav-list">
                 <li><a class="nav-link current" href="./index.html">Product</a></li>
                 <li><a class="nav-link" href="./customers.html">Customers</a></li>
@@ -34,18 +33,21 @@
                 <li><a class="nav-link" href="#">Resources</a></li>
             </ul>
         </nav>
-        <ul class="header-list-btn">
-            <li>
+        <ul class="header-list">
+            <li class="header-list-btn">
                 <button class="header-btn sign-in-btn" type="button">
                     Sign In
                 </button>
             </li>
-            <li>
+            <li class="header-list-btn">
                 <button class="header-btn sign-up-btn" type="button">
                     Sign Up
                 </button>
             </li>
         </ul>
+        <button class="burger-btn" aria-label="Open menu">
+            <img src="./images/menu-btn.svg" alt="">
+      </button>
     </div>
 </header>
 <!-- #endregion header -->
