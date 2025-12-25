@@ -1,3 +1,6 @@
+a {
+     text-decoration: none;
+}
 /* #region header mobile*/
 
 .header .container {
@@ -6,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 17px 32px;
+    margin-bottom: 29px;
 }
 
 .logo {
@@ -19,7 +23,10 @@
 }
 .header-list,
 .header-list-btn,
-.header-btn {
+.header-btn,
+.sign-up-btn,
+.sign-up-btn
+ {
     display: none;
 }
 
@@ -59,9 +66,8 @@
  .burger-btn {
     display: none;
     }
-}
 
-.nav-list {
+    .nav-list {
     display: flex;
     gap: 30px;
 }
@@ -105,4 +111,6 @@
     background-color: #02897a;
     color: #fff;
 }
+}
+
 /* #endregion header */
