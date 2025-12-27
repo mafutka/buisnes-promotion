@@ -27,7 +27,6 @@
 .hero-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.63;
     margin-bottom: 15px;
 
 }
@@ -200,7 +199,6 @@
 }
 
 .signup-list-text {
-    line-height: 1.625;
     text-align: center;
 }
 
@@ -231,7 +229,67 @@ margin: 0 auto;
 
 /* region management  */
 
+.menagement-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 31px ;
+}
+
+.menagement-img {
+    width: 349px;
+    height: 306px;
+    margin-bottom: 50px;
+}
+
+.menagement-text-block {
+}
+
+.menagement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.menagement-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .menagement-span {
     font-weight: 600;
     font-size: 16px;
+}
+
+.support-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.galochka-icon {
+    width: 16px;
+    height: 12px;
+}
+.galochka {
+    width: 35px;
+    height: 35px;
+    border: 2.92px solid #fff;
+    border-radius: 14px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.orange-galochka {
+    background: #f90;
+}
+.red-galochka {
+    background: #f03e3d;
+}
+.blue-galochka{
+    background: #4d8dff;;
 }
