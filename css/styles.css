@@ -228,3 +228,10 @@ border: none;
 text-align: center;
 margin: 0 auto;
 }
+
+/* region management  */
+
+.menagement-span {
+    font-weight: 600;
+    font-size: 16px;
+}
