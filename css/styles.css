@@ -227,7 +227,7 @@ text-align: center;
 margin: 0 auto;
 }
 
-/* region management  */
+/* region management  mobile*/
 
 .menagement-container {
     display: flex;
@@ -255,7 +255,9 @@ margin: 0 auto;
     flex-direction: column;
     gap: 12px;
 }
-
+.menagement-title {
+    margin-bottom: 16px;
+}
 .menagement-span {
     font-weight: 600;
     font-size: 16px;
@@ -292,4 +294,31 @@ margin: 0 auto;
 }
 .blue-galochka{
     background: #4d8dff;;
+}
+
+/* region management  tablet-desktop*/
+
+@media (min-width: 768px) {
+    .menagement-container {
+    margin: 100px 145px ;
+}
+    .menagement-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 84px;
+    }
+
+    .menagement-item.reverse {
+    flex-direction: row-reverse;
+  }
+
+    .menagement-img {
+    width: 540px;
+    height: 500px;
+    flex-shrink: 0;
+}
+  .menagement-text-block {
+    max-width: 486px;
+  }
 }
