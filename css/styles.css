@@ -469,3 +469,9 @@ margin: 0 auto;
         border-radius: 8px;
 }
 }
+
+/* <!-- #region pricetable --> */
+
+.price-container {
+    margin: 0 34px;
+}
