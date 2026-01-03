@@ -475,3 +475,37 @@ margin: 0 auto;
 .price-container {
     margin: 0 34px;
 }
+
+.price-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+}
+
+.price-value {
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 132%;
+  color: #02897a; 
+}
+
+.price-currency {
+  font-weight: 700;
+  font-size: 24px;
+  color: #02897a;
+  transform: translateY(3px);
+  gap: 4px;
+}
+
+.price-period {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #9f9f9f;
+}
