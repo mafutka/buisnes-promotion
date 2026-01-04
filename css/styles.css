@@ -565,15 +565,27 @@ margin: 0 auto;
     margin-bottom: 32px;
     border: none;
     border-radius: 8px;
-width: 139px;
-height: 44px;
-background: #02897a;
-font-weight: 600;
-font-size: 18px;
-color: #fff;
+    width: 139px;
+    height: 44px;
+    background: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
 }
 
 .white-button {
     color: #02897a;
     background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .price-container {
+        margin-top: 171px;
+    }
+    .price-list {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1110px;
+        margin: auto;
+    }
 }
