@@ -638,3 +638,16 @@ height: auto;
 font-size: 16px;
 line-height: 150%;
 }
+
+@media (min-width: 768px) {
+    .feedback-list {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+
+}
+.feedback-text {
+    width: 537px;
+    margin-bottom: 40px;
+}
+}
