@@ -651,3 +651,39 @@ line-height: 150%;
     margin-bottom: 40px;
 }
 }
+/* promo-section */
+
+.promo-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    background: #02897a;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+width: 371px;
+height: 688px;
+
+}
+.promo-title {
+    font-weight: 600;
+    margin: 17px 21px;
+    color: #fff;
+    text-align: center;
+    
+}
+.promo-button {
+    margin: 40px auto;
+    border-radius: 8px;
+    width: 150px;
+height: 50px;
+    border: none;
+    background: #fff;
+    color: #02897a;
+    font-weight: 600;
+font-size: 20px;
+
+
+}
+.promo-picture {
+}
