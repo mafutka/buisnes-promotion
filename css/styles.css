@@ -687,3 +687,31 @@ font-size: 20px;
 }
 .promo-picture {
 }
+
+@media (min-width: 678px) {
+    .promo-container {
+        padding: 0 50px;
+        border-radius: 32px;
+       flex-direction: row;
+       justify-content: space-between;
+width: 968px;
+height: 100%;
+margin: 0 auto;
+    }
+    .text-block {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    text-align: left;
+    height: 100%;
+    }
+    .promo-title {
+        text-align: left;
+        margin: 0 0 46px 0;;
+        padding-left: 0;
+    }
+    .promo-button{
+        margin: 0;
+    }
+}
